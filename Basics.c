@@ -62,6 +62,7 @@ void overwriteNext(Node *before, Node *after){
             after->next = tmp;
         }
         else{
+            free_Node(before->next);
             before->next = after;
         }
     }
