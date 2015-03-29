@@ -57,6 +57,7 @@ void overwriteNext(Node *before, Node *after){
     if(before->next != NULL){
         if(before->next->next != NULL){
             Node *tmp = before->next->next;
+            free_Node(before->next);
             before->next = after;
             after->next = tmp;
         }
