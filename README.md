@@ -8,8 +8,8 @@ algorithm, and a very basic repeated squaring.
 
 ###Features
 
-*GCD
-*LCM
-*Repeated Squaring
-*Language:
-    *C
+- GCD
+- LCM
+- Repeated Squaring
+- Language:
+    - C
